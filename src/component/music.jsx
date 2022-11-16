@@ -13,7 +13,7 @@ export function Music(props) {
 	const [audioSrc, setAudioSrc] = useState(musicList[index].mp3Archive);
 	const [currentTime, setCurrentTime] = useState("0:00");
 	const [totalTime, setTotalTime] = useState();
-	const [totalTimeOR, setTotalTimeOR] = useState();
+	const [totalTimeOR] = useState();
 	const audioPlayer = useRef();
 	const btnPlay = useRef();
 	const btnPause = useRef();
