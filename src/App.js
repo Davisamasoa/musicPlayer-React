@@ -10,12 +10,8 @@ function App() {
 
 			<footer>
 				<p>Desenvolvido por Davi Samuel</p>
-				<a
-					target="_blank"
-					rel="noreferrer"
-					href="https://github.com/Davisamasoa"
-				>
-					<i class="bi bi-github"></i>
+				<a target="_blank" rel="noreferrer" href="https://github.com/Davisamasoa">
+					<i className="bi bi-github"></i>
 				</a>
 			</footer>
 		</div>
