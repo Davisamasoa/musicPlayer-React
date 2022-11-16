@@ -37,9 +37,11 @@ export function Music(props) {
 		}
 	};
 	function changeMusic() {
-		hiddenPlayButton();
-		pause();
-		play();
+		audioPlayer.current.addEventListener("loadeddata", () => {
+			hiddenPlayButton();
+			pause();
+			play();
+		});
 	}
 
 	function play() {
