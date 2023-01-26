@@ -367,13 +367,13 @@ footer i {
 
 @media (max-width: 1400px) {
 	main {
-		width: 350px;
+		width: 250px;
 		height: 650px;
 		margin-top: -50px;
 		position: relative;
 	}
 	.figure-album {
-		width: 350px;
+		width: 250px;
 		margin-top: -50px;
 	}
 	.div-volume {
