@@ -365,7 +365,7 @@ footer i {
 	color: white;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1500px) {
 	main {
 		width: 250px;
 		height: 650px;
