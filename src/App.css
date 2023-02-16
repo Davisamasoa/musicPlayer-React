@@ -57,6 +57,7 @@ main {
 }
 input[type="range"] {
 	-webkit-appearance: none;
+	appearance: none;
 	background-color: transparent;
 }
 
@@ -73,6 +74,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 input[type="range"]::-moz-range-thumb {
 	-webkit-appearance: none;
+	appearance: none;
 	width: 9px;
 	height: 9px;
 	border: none;
@@ -84,6 +86,7 @@ input[type="range"]::-moz-range-thumb {
 
 input[type="range"]::-ms-thumb {
 	-webkit-appearance: none;
+	appearance: none;
 	width: 9px;
 	height: 9px;
 	border: none;
@@ -130,11 +133,13 @@ input[type="range"]::-webkit-slider-runnable-track {
 
 input[type="range"]::-moz-range-track {
 	-webkit-appearance: none;
+	appearance: none;
 	background-color: transparent;
 }
 
 input[type="range"]::-ms-track {
 	-webkit-appearance: none;
+	appearance: none;
 	background-color: transparent;
 }
 
